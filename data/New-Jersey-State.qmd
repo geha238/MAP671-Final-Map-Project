@@ -1,0 +1,140 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.40.15-Bratislava">
+  <identifier>Municipal Boundaries of New Jersey, Web Mercator</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Municipal Boundaries of New Jersey, Web Mercator</title>
+  <abstract>This data set is a spatial representation of municipalities in New Jersey developed by the NJ Office of Information Technology, Office of GIS (NJOGIS) in NJ State Plane Coordinate System (NAD83), and re-projected to Web Mercator Auxiliary Sphere (EPSG 3857). It is not a survey document and must not be used as such. The polygons delineated in this data set do not represent legal boundaries. This data set improves upon previous versions of municipal boundaries through the integration of coincident features from several high quality source data sets, as a component of the NJOGIS statewide Parcels Normalization Project concluded in March 2010. Updates continue to be made as necessary.
+***NOTE*** For users who incorporate NJOGIS services into web maps and/or web applications, please sign up for the NJ Geospatial Forum discussion listserv for early notification of service changes. Visit https://nj.gov/njgf/about/listserv/ for more information.
+
+To provide basic jurisdictional information. This data set was developed to produce the most accurate delineation of municipal boundaries achievable from existing data sources. The Web Mercator version is intended for use in web maps with Web Mercator base maps, such as in ArcGIS Online. Any service user who would like to be notified of future layer definition changes or outages should register with the New Jersey Geospatial Forum Email listserv.
+
+Spatially referenced data were derived from the following GIS data sets to build municipal boundaries. They include: Delaware Geological Survey - New Jersey/Delaware boundary data New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program - preserved farmland boundary data from property surveys New Jersey Department of Environmental Protection, Green Acres Program - open space boundary data from property surveys New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - hydro (stream) centerline data New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - municipal boundaries data from US Geological Survey topographic maps New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through Shooters Island off the shoreline of Bayonne New Jersey Department of Transportation - road centerline data NJ Office of Information Technology, Office of GIS (NJOGIS) - New Jersey/Pennsylvania boundary data, and river and bay outlet data Various county or municipal agencies - State-certified digital tax map data and digital parcel data</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>minor civil divisions</keyword>
+    <keyword>municipality</keyword>
+    <keyword>municipalities</keyword>
+    <keyword>counties</keyword>
+    <keyword>USA</keyword>
+    <keyword>village</keyword>
+    <keyword>county</keyword>
+    <keyword>township</keyword>
+    <keyword>boundary</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>town</keyword>
+    <keyword>New Jersey</keyword>
+    <keyword>borough</keyword>
+    <keyword>city</keyword>
+    <keyword>municipal</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>administrative boundary</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>minor civil divisions</keyword>
+    <keyword>municipality</keyword>
+    <keyword>municipalities</keyword>
+    <keyword>counties</keyword>
+    <keyword>village</keyword>
+    <keyword>county</keyword>
+    <keyword>township</keyword>
+    <keyword>boundary</keyword>
+    <keyword>town</keyword>
+    <keyword>borough</keyword>
+    <keyword>city</keyword>
+    <keyword>municipal</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>Administrative boundary</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>postal</type>
+      <address>PO Box 212</address>
+      <city>Trenton</city>
+      <administrativearea>NJ</administrativearea>
+      <postalcode>08625-0212</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>Stephen Eckhardt</name>
+    <organization>NJ Office of Information Technology, Office of GIS (NJOGIS)</organization>
+    <position>Spatial Data Development Specialist</position>
+    <voice>609.376.7575</voice>
+    <fax></fax>
+    <email>stephen.eckhardt@tech.nj.gov</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link mimeType="" format="" type="https://developers.arcgis.com/rest/services-reference/" size="" name="ArcGIS Online hosted feature layer - ArcREST" description="" url="https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services"/>
+  </links>
+  <history>Data source: New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems hydro (stream) centerline data.</history>
+  <history>Data source: New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program preserved farmland boundary data from property surveys.</history>
+  <history>Data source: United States Board on Geographic Names, United State Geological Survey GNIS civil codes and names</history>
+  <history>Data source: New Jersey Department of Transportation road centerline data.</history>
+  <history>Data source: New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems land use/landcover data.</history>
+  <history>Data source: Delaware Geological Survey New Jersey/Delaware boundary delineated from descriptions in a 1934-1935 Court Decree of the US Supreme Court.</history>
+  <history>Data source: New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems municipal boundaries data digitized from various US Geological Survey topographic maps.</history>
+  <history>Data source: New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems data representing the New Jersey/New York boundary for Ellis Island delineated from an 1857 US Coast Survey Map.</history>
+  <history>Data source: New Jersey Department of Environmental Protection, New Jersey Geological Survey data of the New Jersey/New York boundary for the northern border of New Jersey from boundary marker survey points, or the New Jersey/New York boundary through Shooters Island off the shoreline of Bayonne from turning points through the Kill Van Kull.</history>
+  <history>Data source: New Jersey Department of Environmental Protection, Green Acres Program open space boundary data from property surveys.</history>
+  <history>Data source: NJOGIS comprehensive statewide road centerline data</history>
+  <dates>
+    <date value="2025-03-14T00:00:00" type="Published"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Security constraints"></constraints>
+  <constraints type="Limitations of use">The data layer is not survey data and must not be used as survey data. See the balance of this metadata record for conditions that limit appropriate uses. Users are urged to look at this documentation to assess the fitness of the data for any planned use.
+Acknowledgement of the provider, NJ Office of Information Technology, Office of GIS (NJOGIS), is requested for maps, data or other products derived from these data. 
+The State of New Jersey makes great effort to provide secure, accurate, and complete data and metadata. However, portions of the data and metadata may be incorrect or not current. Any errors or omissions should be reported for investigation. 
+The State of New Jersey, its officers, employees or agents shall not be liable for damages or losses of any kind arising out of or in connection with the use or performance of data and metadata, including but not limited to, damages or losses caused by reliance upon the accuracy or timeliness of any such data and metadata, or damages incurred from the viewing, distributing, or copying of those materials. 
+The data and metadata are provided "as is." No warranty of any kind, implied, expressed, or statutory, including but not limited to the warranties of non-infringement of third party rights, title, merchantability, fitness for a particular purpose, and freedom from computer virus, is given with respect to the data and metadata, or its hyperlinks to other Internet resources. 
+The State disclaims any duty or obligation either to maintain availability of or to update the data and metadata. 
+All web site data distribution by NJOGIS is, in addition, subject to the Conditions of Use for State of New Jersey executive branch web sites, listed on the State’s Legal Statement &amp; Disclaimers page https://www.nj.gov/nj/legal.html .</constraints>
+  <rights>Delaware Geological Survey - New Jersey/Delaware boundary data through the Delaware River within the 12 mile circle centered on the old New Castle County Courthouse (Used prior to 1881)&#xd;
+&#xd;
+New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program - preserved farmland boundary data from property surveys New Jersey Department of Environmental Protection, Green Acres Program - open space boundary data from property surveys&#xd;
+&#xd;
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island&#xd;
+&#xd;
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - hydro (stream) centerline data&#xd;
+&#xd;
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data&#xd;
+&#xd;
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - municipal boundaries data from US Geological Survey topographic maps&#xd;
+&#xd;
+New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through Shooters Island off the shoreline of Bayonne&#xd;
+&#xd;
+New Jersey Department of Transportation - road centerline data&#xd;
+&#xd;
+NJ Office of Information Technology, Office of GIS (NJOGIS) - New Jersey/Pennsylvania boundary data, and river and bay outlet data&#xd;
+&#xd;
+Various county or municipal agencies - State-certified digital tax map data and digital parcel data</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxy="41.35765500000000117" dimensions="2" miny="38.92852200000000096" crs="EPSG:3857" minx="-75.55956799999999873" minz="0" maxx="-73.90245099999999923" maxz="0"/>
+    <temporal>
+      <period>
+        <start>2025-03-14T04:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
